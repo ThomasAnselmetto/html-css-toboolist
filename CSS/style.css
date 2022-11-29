@@ -31,11 +31,12 @@ h1{
     height: 800px;
     margin:50px auto;
     background-color:white;
-    padding-top: 15px;
-    padding-left:30px;
-    margin-bottom:10px;
+}
 
-    
+.bottoni{
+    border-bottom: 1px solid #999;
+    padding-left: 50px;
+    padding-top: 15px;
 }
 
 
@@ -50,7 +51,7 @@ h1{
 /*utils*/
 
 .radius-little{
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .radius-big{
@@ -58,11 +59,29 @@ h1{
 }
 .pulsante{
     color:white;
-    border:0;
-    padding:5px;
+    border:1px solid;
+    padding:6px 12px;
+    margin-bottom:10px;
+    font-size: 12px;
+   
 
 }
 
 .blue{
     background-color: #45ABEA;
+    border-color:#45ABEA;
+}
+.white{
+    background-color: white;
+    border-color:#999;
+    color:#999;
+}
+
+.check{
+    color:green;
+    font-weight:bolder;
+}
+.cross{
+    color:red;
+    font-weight:bolder;
 }

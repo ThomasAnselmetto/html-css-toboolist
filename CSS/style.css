@@ -5,6 +5,7 @@
     margin: 0;
     padding:0;
 }
+/*Generics */
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -25,6 +26,17 @@ h1{
     display: inline;  
 }
 
+.container{
+    width: 800px;
+    height: 800px;
+    margin:50px auto;
+    background-color:white;
+    padding-top: 15px;
+    padding-left:30px;
+    margin-bottom:10px;
+
+    
+}
 
 
 
@@ -33,6 +45,24 @@ h1{
 
 
 
-/*Generics */
+
 
 /*utils*/
+
+.radius-little{
+    border-radius: 10px;
+}
+
+.radius-big{
+    border-radius: 50%;
+}
+.pulsante{
+    color:white;
+    border:0;
+    padding:5px;
+
+}
+
+.blue{
+    background-color: #45ABEA;
+}

@@ -12,7 +12,7 @@
 
 <body>
     <header class="head">
-        <img class="logo"src="./IMG/Logo.png" alt="Boolean-logo">
+        <img class="logo" src="./IMG/Logo.png" alt="Boolean-logo">
         <h1>Toboolist</h1>
     </header>
 
@@ -20,35 +20,40 @@
 
     <div class="container radius-little">
         <div class="bottoni">
-            <button class="pulsante blue radius-little" type="button-blue">Add Task</button>
-            <button class="pulsante white radius-little" type="button-white">Add Section</button>
+            <button class="pulsante blue radius-little" type="button">Add Task</button>
+            <button class="pulsante white radius-little" type="button">Add Section</button>
         </div>
 
         
         <div class="list">
-            <details>
+
+<!-- creo le liste,successivamente aggiungo i check e cross invine uso line-height e do forma e colore agli span "bottone" -->
+
+            <details class="details">
                 <summary>New Task</summary>
-                <span class="check">&check;</span>Quarterly Newsletter <span class="pulsante">Editorial</span>
+                <span class="check">&check;</span> Quarterly Newsletter <span class="pulsante radius-big blue">Editorial</span>
             </details>
-            <details>
+
+            <details class="details">
                 <summary>Today</summary>
-               <span class="check"v>&check;</span>Recruiting blog post <span class="pulsante">Editorial</span> <br />
-               <span class="check">&check;</span>Mobile app launch <span class="pulsante">Q1 Goals</class=> <br />
-               <span class="cross">&cross;</span>Interview John <span class="pulsante">Recruiting</span> <br />
-               <span class="check">&check;</span>Summit updates to mobile storefots <span class="pulsante">Mobile</span>
+               <span class="check">&check;</span> Recruiting blog post <span class="pulsante radius-big blue">Editorial</span> <br />
+               <span class="check">&check;</span> Mobile app launch <span class="pulsante radius-big violet">Q1 Goals</span> <br />
+               <span class="cross">&cross;</span> Interview John <span class="pulsante radius-big lightgreen">Recruiting</span> <br />
+               <span class="check">&check;</span> Summit updates to mobile storefots <span class="pulsante radius-big orange">Mobile</span>
             </details>
-            <details>
+
+            <details class="details">
                 <summary>Upcoming</summary>
-                <span class="cross">&cross;</span>Schedule meeting with Alex <span class="pulsante"></span> <br />
-                <span class="check">&check;</span>Homepage Refresh <span class="pulsante">Website</span> <br />
-                <span class="check">&check;</span>Onboard new sales team member <span class="pulsante">Sales</span> <br />
-                <span class="check">&check;</span>reviev editor calendar <span class="pulsante">Editorial</span>
+                <span class="cross">&cross;</span> Schedule meeting with Alex <span class="pulsante radius-big"></span> <br />
+                <span class="check">&check;</span> Homepage Refresh <span class="pulsante radius-big fucsia">Website</span> <br />
+                <span class="check">&check;</span> Onboard new sales team member <span class="pulsante radius-big el-green">Sales</span> <br />
+                <span class="check">&check;</span> reviev editor calendar <span class="pulsante radius-big blue">Editorial</span>
             </details>
         </div>
-    
-            
-
-
     </div>
 </body>
 </html>
+
+    
+            
+

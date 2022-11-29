@@ -9,7 +9,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #999;
+    background-color: #F6F8F9;
 }
 .head{
     background-color:white;
@@ -33,20 +33,16 @@ h1{
     background-color:white;
 }
 
+.list{
+    padding: 30px 50px;
+    line-height: 2;
+}
+
 .bottoni{
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #F6F8F9;
     padding-left: 50px;
     padding-top: 15px;
 }
-
-
-
-
-
-
-
-
-
 
 /*utils*/
 
@@ -55,7 +51,7 @@ h1{
 }
 
 .radius-big{
-    border-radius: 50%;
+    border-radius: 25px;
 }
 .pulsante{
     color:white;
@@ -63,9 +59,17 @@ h1{
     padding:6px 12px;
     margin-bottom:10px;
     font-size: 12px;
-   
-
 }
+
+summary{
+    font-weight: bold;
+}
+
+.details{
+    margin-bottom: 30px;
+}
+
+/*colors*/
 
 .blue{
     background-color: #45ABEA;
@@ -73,15 +77,35 @@ h1{
 }
 .white{
     background-color: white;
-    border-color:#999;
-    color:#999;
+    border-color:#F6F8F9;
+    color:#F6F8F9;
+}
+.violet{
+    background-color: #9C72E4;
+}
+.lightgreen{
+    background-color: #63BFA8;
+}
+.orange{
+    background-color: #F29E33;
+}
+.fucsia{
+    background-color: #D863A1;
+}
+.el-green{
+    background-color:#B0C926
 }
 
 .check{
     color:green;
-    font-weight:bolder;
 }
 .cross{
     color:red;
-    font-weight:bolder;
 }
+
+
+
+
+
+
+
